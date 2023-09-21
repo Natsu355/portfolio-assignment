@@ -1,0 +1,170 @@
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body,html {
+    height: 100%;
+}
+.container {
+    height: 100%;
+}
+.nav {
+    height: 9%;
+    background-color: rgba(209, 52, 52, 0.774);
+    display: flex;
+    align-items: center;
+    
+}
+.nav .links {
+    position: relative;
+    left: 66%;
+    width: 30%;
+    height: 100%;
+    display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.nav .links p{
+    height: 100%;
+   
+}
+.nav .links p:hover{
+    background-color: rgb(60, 60, 229);
+}
+a {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    height: 100%;
+    margin:0px 20px;
+}
+.intro {
+    background-color: rgb(54, 52, 52);
+    height: 67%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.typing-effect h1,h3{
+    margin: 30px;
+}
+.typing-effect h1 {
+    font-size: 50px;
+    color: antiquewhite;
+}
+.typing-effect h3 {
+    font-size: 25px;
+}
+
+/*project*/
+
+.projects {
+    height: 800px;
+    background-color: rgb(28, 85, 85);
+    padding: 6%;
+}
+.project-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.project-head p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.projects .project-list {
+    margin-top: 35px;
+    height: 90%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-list .project-card {
+    height: 70%;
+    width: 30%;
+    margin: 30px;
+}
+.project-card img {
+    width: 100%;
+    padding: 10px;
+    height: 80%;
+}
+.project-card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    font-size: 10px;
+    margin-top: -20px;
+    height: 40px;
+    color: #b3aeae;
+    background-color: rgb(33, 33, 91);
+    
+}
+.project-card-text:hover .before-hover {
+    display: none;
+}
+.project-card-text .after-hover {
+    display: none;
+    transition: all 3s ease;
+
+}
+.project-card-text:hover .after-hover {
+    display: inline;
+   
+    
+}
+
+.show-all {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+
+}
+.show-all button{
+    width: 8%;
+    font-size: 20px;
+}
+
+
+/* social-media */
+.social-media {
+    height: 65%;
+    padding: 50px;
+    background-color: rgb(53, 53, 130);
+    
+}
+.social-media .social-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+    flex-direction: column;
+    color: beige;
+    
+}
+.social-text p{
+    margin-top: 10px;
+}
+.social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+}
+.social-links p{
+    height: 20%;
+    width: 15%;
+    font-size: 20px;
+    padding: 10px;
+    color: #cec6c6;
+}
+.social-links p span{
+    margin-left: 10px;
+}
